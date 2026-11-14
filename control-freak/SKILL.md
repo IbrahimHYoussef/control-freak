@@ -1,9 +1,9 @@
 ---
-name: controll-freak
-description: Use when about to execute or implement a multi-task implementation plan, when the user wants to review each task before it is committed, or when the user invokes controll-freak by name. Also use when working in a project that has a .controll-freak/QUIRKS.md file.
+name: control-freak
+description: Use when about to execute or implement a multi-task implementation plan, when the user wants to review each task before it is committed, or when the user invokes control-freak by name. Also use when working in a project that has a .control-freak/QUIRKS.md file.
 ---
 
-# Controll Freak
+# Control Freak
 
 ## Overview
 
@@ -37,7 +37,7 @@ preflight -> [ implement ONE task -> verify -> STOP and report
 2. **Plan.** Use the plan that exists: a plan file, another skill's output, or
    the conversation. If there is none, draft a short task list and get it
    approved.
-3. **Quirks.** Read `.controll-freak/QUIRKS.md` if it exists (see Quirk Memory).
+3. **Quirks.** Read `.control-freak/QUIRKS.md` if it exists (see Quirk Memory).
 4. **Tasks.** Restate the tasks as a numbered list. If a task looks too large to
    review comfortably, propose splitting it. If the plan and the task list are
    clear, go straight on to task 1. Do not stop only to ask "shall I start?".
@@ -139,7 +139,7 @@ Each project keeps a memory of its quirks: things you need to know to work well
 there and would otherwise get wrong or be corrected on again. Quirks are tied to
 a position in the codebase, and you look them up by where you are working.
 
-**File:** `.controll-freak/QUIRKS.md` at the project root, committed with the
+**File:** `.control-freak/QUIRKS.md` at the project root, committed with the
 project. Each heading is the path or glob its quirks apply to:
 
 ```markdown

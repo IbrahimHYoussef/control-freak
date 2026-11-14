@@ -1,4 +1,4 @@
-# controll-freak
+# control-freak
 
 An agent skill for Claude Code and OpenCode that keeps you in control of a
 multi-task implementation.
@@ -13,7 +13,7 @@ to read.
 
 ## Quirk memory
 
-Each project can hold a memory of its quirks in `.controll-freak/QUIRKS.md`.
+Each project can hold a memory of its quirks in `.control-freak/QUIRKS.md`.
 Every section is headed by the path or glob it applies to, and the agent reads
 the sections that match the files it is about to work on:
 
@@ -33,17 +33,17 @@ the file by hand.
 
 ## Install
 
-The skill is the `controll-freak/` folder. Symlink it into each tool's skills
+The skill is the `control-freak/` folder. Symlink it into each tool's skills
 directory:
 
 ```bash
-git clone <this repo> ~/ControllFreak
+git clone <this repo> ~/control-freak
 
 # OpenCode
-ln -s ~/ControllFreak/controll-freak ~/.config/opencode/skills/controll-freak
+ln -s ~/control-freak/control-freak ~/.config/opencode/skills/control-freak
 
 # Claude Code (use the skills folder of your Claude config directory)
-ln -s ~/ControllFreak/controll-freak ~/.claude/skills/controll-freak
+ln -s ~/control-freak/control-freak ~/.claude/skills/control-freak
 ```
 
 To install it for a single project instead, link or copy the folder into that
@@ -52,8 +52,8 @@ project's `.opencode/skills/` or `.claude/skills/`.
 ## Use
 
 Have a plan (a plan file, or a task list in the conversation), then ask the
-agent to implement it with controll-freak. At each stop, reply with changes, or
+agent to implement it with control-freak. At each stop, reply with changes, or
 with "approved" to commit and move on.
 
 The design is documented in
-`docs/superpowers/specs/2026-11-14-controll-freak-design.md`.
+`docs/superpowers/specs/2026-11-14-control-freak-design.md`.

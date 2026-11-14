@@ -1,10 +1,10 @@
-# controll-freak skill: design
+# control-freak skill: design
 
 Date: 2026-11-14
 
 ## Purpose
 
-`controll-freak` is an agent skill for Claude Code and OpenCode. It governs how
+`control-freak` is an agent skill for Claude Code and OpenCode. It governs how
 an implementation plan is executed: the agent implements one task, stops for
 human review, revises until the human is satisfied, and commits only on explicit
 approval before starting the next task.
@@ -36,14 +36,14 @@ Out of scope (deliberately):
 
 | Path | Role |
 |---|---|
-| `controll-freak/SKILL.md` | The skill. Single source, loaded natively by both tools. |
+| `control-freak/SKILL.md` | The skill. Single source, loaded natively by both tools. |
 | `README.md` | What the skill does and how to install it. |
-| `~/.config/opencode/skills/controll-freak` | Symlink to `controll-freak/` in this repo. |
-| `~/.claude-personal/skills/controll-freak` | Symlink to `controll-freak/` in this repo. |
+| `~/.config/opencode/skills/control-freak` | Symlink to `control-freak/` in this repo. |
+| `~/.claude-personal/skills/control-freak` | Symlink to `control-freak/` in this repo. |
 
 The repo lives at `/home/ibrahim/ControllFreak` and is a git repository.
 
-`SKILL.md` frontmatter has `name: controll-freak` and a `description` that says
+`SKILL.md` frontmatter has `name: control-freak` and a `description` that says
 when to use it. The body avoids tool names specific to one harness (it says
 "ask the human" and "run the tests", not the name of a particular tool), so the
 same file works in both.
@@ -145,7 +145,7 @@ in.
 ### Storage
 
 One file per project, committed with the project:
-`.controll-freak/QUIRKS.md`.
+`.control-freak/QUIRKS.md`.
 
 Each section heading is the path or glob the quirks under it apply to, relative
 to the project root:
@@ -234,7 +234,7 @@ tasks in a scratch git repo) and check:
 3. Given "looks ok but rename the function", it revises and stops again without
    committing.
 4. Given "approved", it makes exactly one commit and announces task 2.
-5. With a `.controll-freak/QUIRKS.md` holding a quirk for one folder, a task in
+5. With a `.control-freak/QUIRKS.md` holding a quirk for one folder, a task in
    that folder follows the quirk and lists it in the report, and a task
    elsewhere does not list it.
 6. Given feedback that will clearly recur ("we always use X here"), it proposes
