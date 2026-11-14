@@ -40,6 +40,12 @@ the file by hand.
 /plugin install control-freak@control-freak
 ```
 
+### Skills CLI (Claude Code, OpenCode and other agents)
+
+```bash
+npx skills add IbrahimHYoussef/control-freak
+```
+
 ### Manual (Claude Code and OpenCode)
 
 The skill is the `skills/control-freak/` folder. Clone the repo and symlink that
