@@ -36,10 +36,10 @@ Out of scope (deliberately):
 
 | Path | Role |
 |---|---|
-| `control-freak/SKILL.md` | The skill. Single source, loaded natively by both tools. |
+| `skills/control-freak/SKILL.md` | The skill. Single source, loaded natively by both tools. |
 | `README.md` | What the skill does and how to install it. |
-| `~/.config/opencode/skills/control-freak` | Symlink to `control-freak/` in this repo. |
-| `~/.claude-personal/skills/control-freak` | Symlink to `control-freak/` in this repo. |
+| `~/.config/opencode/skills/control-freak` | Symlink to `skills/control-freak/` in this repo. |
+| `~/.claude-personal/skills/control-freak` | Symlink to `skills/control-freak/` in this repo. |
 
 The repo lives at `/home/ibrahim/ControllFreak` and is a git repository.
 

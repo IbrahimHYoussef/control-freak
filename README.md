@@ -33,18 +33,30 @@ the file by hand.
 
 ## Install
 
-The skill is the `control-freak/` folder. Symlink it into each tool's skills
-directory:
+### Claude Code plugin
+
+```
+/plugin marketplace add IbrahimHYoussef/control-freak
+/plugin install control-freak@control-freak
+```
+
+### Manual (Claude Code and OpenCode)
+
+The skill is the `skills/control-freak/` folder. Clone the repo and symlink that
+folder into each tool's skills directory:
 
 ```bash
-git clone <this repo> ~/control-freak
+git clone https://github.com/IbrahimHYoussef/control-freak.git ~/control-freak
 
 # OpenCode
-ln -s ~/control-freak/control-freak ~/.config/opencode/skills/control-freak
+ln -s ~/control-freak/skills/control-freak ~/.config/opencode/skills/control-freak
 
 # Claude Code (use the skills folder of your Claude config directory)
-ln -s ~/control-freak/control-freak ~/.claude/skills/control-freak
+ln -s ~/control-freak/skills/control-freak ~/.claude/skills/control-freak
 ```
+
+Run `git pull` in the clone to update. On Windows without WSL, copy the folder
+instead of symlinking it.
 
 To install it for a single project instead, link or copy the folder into that
 project's `.opencode/skills/` or `.claude/skills/`.

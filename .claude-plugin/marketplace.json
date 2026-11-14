@@ -1,0 +1,11 @@
+{
+  "name": "control-freak",
+  "owner": { "name": "IbrahimHYoussef" },
+  "plugins": [
+    {
+      "name": "control-freak",
+      "source": "./",
+      "description": "Task-by-task plan execution with a human review gate before every commit, plus a per-project quirk memory."
+    }
+  ]
+}
