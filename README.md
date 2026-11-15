@@ -75,3 +75,12 @@ with "approved" to commit and move on.
 
 The design is documented in
 `docs/superpowers/specs/2026-11-14-control-freak-design.md`.
+
+## Benchmarks
+
+Token cost of the review stops, measured with and without the skill: see
+`benchmarks/README.md`.
+
+## License
+
+MIT. See `LICENSE`.

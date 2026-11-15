@@ -2,6 +2,7 @@
   "name": "control-freak",
   "description": "Implement a plan one task at a time: stop for human review after each task, revise until approved, commit only on explicit approval. Includes a per-project quirk memory keyed by file and folder.",
   "version": "1.0.0",
+  "license": "MIT",
   "author": { "name": "IbrahimHYoussef" },
   "homepage": "https://github.com/IbrahimHYoussef/control-freak",
   "repository": "https://github.com/IbrahimHYoussef/control-freak",

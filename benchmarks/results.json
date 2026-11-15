@@ -1,0 +1,50 @@
+[
+  {
+    "run": "baseline-1",
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36743,
+    "cache_read_input_tokens": 65153,
+    "output_tokens": 2298,
+    "api_calls": 3
+  },
+  {
+    "run": "baseline-2",
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36750,
+    "cache_read_input_tokens": 65151,
+    "output_tokens": 2271,
+    "api_calls": 3
+  },
+  {
+    "run": "baseline-3",
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 35036,
+    "cache_read_input_tokens": 30136,
+    "output_tokens": 2301,
+    "api_calls": 2
+  },
+  {
+    "run": "skill-1",
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 43319,
+    "cache_read_input_tokens": 354795,
+    "output_tokens": 4793,
+    "api_calls": 10
+  },
+  {
+    "run": "skill-2",
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 43558,
+    "cache_read_input_tokens": 355645,
+    "output_tokens": 5104,
+    "api_calls": 10
+  },
+  {
+    "run": "skill-3",
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 43518,
+    "cache_read_input_tokens": 355793,
+    "output_tokens": 5106,
+    "api_calls": 10
+  }
+]

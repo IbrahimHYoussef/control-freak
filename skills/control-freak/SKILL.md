@@ -1,6 +1,7 @@
 ---
 name: control-freak
 description: Use when about to execute or implement a multi-task implementation plan, when the user wants to review each task before it is committed, or when the user invokes control-freak by name. Also use when working in a project that has a .control-freak/QUIRKS.md file.
+license: MIT
 ---
 
 # Control Freak
